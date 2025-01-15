@@ -148,7 +148,7 @@ func newPoint(x, y *big.Int) *Point {
 	}
 }
 
-func map2IsoCurve(fe *big.Int) *Point {
+func Map2IsoCurve(fe *big.Int) *Point {
 	x, y := internal.MapToCurveSSWU(&fp, secp256k13ISOA, secp256k13ISOB, mapZ, fe)
 	return newPoint(x, y)
 }
