@@ -153,6 +153,10 @@ func Map2IsoCurve(fe *big.Int) *Point {
 	return newPoint(x, y)
 }
 
+func MapToCurveSSWU(fp *field.Field, a, b, z, fe *big.Int) (x, y *big.Int) {
+	return internal.MapToCurveSSWU(fp, a, b, z, fe)
+}
+
 func isogeny3iso(e *Point) *Point {
 	x, y, isIdentity := IsogenySecp256k13iso(&e.X, &e.Y)
 
