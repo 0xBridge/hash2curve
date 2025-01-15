@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bytemare/hash2curve/ristretto255"
+	"github.com/0xBridge/hash2curve/ristretto255"
 )
 
 type ristrettoH2gTestBytes struct {

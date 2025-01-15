@@ -23,8 +23,8 @@ import (
 
 	"github.com/bytemare/hash"
 
-	"github.com/bytemare/hash2curve"
-	"github.com/bytemare/hash2curve/internal"
+	"github.com/0xBridge/hash2curve"
+	"github.com/0xBridge/hash2curve/internal"
 )
 
 const expandMessageVectorFiles = "vectors/expand"

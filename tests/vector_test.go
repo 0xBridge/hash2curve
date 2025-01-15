@@ -25,10 +25,10 @@ import (
 	"filippo.io/edwards25519"
 	"filippo.io/edwards25519/field"
 
-	"github.com/bytemare/hash2curve"
-	edwards25520 "github.com/bytemare/hash2curve/edwards25519"
-	"github.com/bytemare/hash2curve/nist"
-	"github.com/bytemare/hash2curve/secp256k1"
+	"github.com/0xBridge/hash2curve"
+	edwards25520 "github.com/0xBridge/hash2curve/edwards25519"
+	"github.com/0xBridge/hash2curve/nist"
+	"github.com/0xBridge/hash2curve/secp256k1"
 )
 
 const (

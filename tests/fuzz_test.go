@@ -16,7 +16,7 @@ import (
 
 	"github.com/bytemare/hash"
 
-	"github.com/bytemare/hash2curve"
+	"github.com/0xBridge/hash2curve"
 )
 
 func fuzzTestSkipInput(t *testing.T, dst []byte, length uint) {

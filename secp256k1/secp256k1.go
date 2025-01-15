@@ -14,9 +14,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/bytemare/hash2curve"
-	"github.com/bytemare/hash2curve/internal"
-	"github.com/bytemare/hash2curve/internal/field"
+	"github.com/0xBridge/hash2curve"
+	"github.com/0xBridge/hash2curve/internal"
+	"github.com/0xBridge/hash2curve/internal/field"
 )
 
 const (
@@ -154,7 +154,7 @@ func map2IsoCurve(fe *big.Int) *Point {
 }
 
 func isogeny3iso(e *Point) *Point {
-	x, y, isIdentity := isogenySecp256k13iso(&e.X, &e.Y)
+	x, y, isIdentity := IsogenySecp256k13iso(&e.X, &e.Y)
 
 	if isIdentity {
 		return newPoint(new(big.Int), new(big.Int))
@@ -186,7 +186,7 @@ var (
 )
 
 // isogenySecp256k13iso is a 3-degree isogeny from secp256k1 3-ISO to the secp256k1 elliptic curve.
-func isogenySecp256k13iso(x, y *big.Int) (px, py *big.Int, isIdentity bool) {
+func IsogenySecp256k13iso(x, y *big.Int) (px, py *big.Int, isIdentity bool) {
 	var x2, x3, k11, k12, k13, k21, k31, k32, k33, k41, k42 big.Int
 	fp.Mul(&x2, x, x)
 	fp.Mul(&x3, &x2, x)

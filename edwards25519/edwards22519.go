@@ -17,7 +17,7 @@ import (
 	"filippo.io/edwards25519"
 	"filippo.io/edwards25519/field"
 
-	"github.com/bytemare/hash2curve"
+	"github.com/0xBridge/hash2curve"
 )
 
 const (

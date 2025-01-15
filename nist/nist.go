@@ -16,9 +16,9 @@ import (
 
 	"filippo.io/nistec"
 
-	"github.com/bytemare/hash2curve"
-	"github.com/bytemare/hash2curve/internal"
-	"github.com/bytemare/hash2curve/internal/field"
+	"github.com/0xBridge/hash2curve"
+	"github.com/0xBridge/hash2curve/internal"
+	"github.com/0xBridge/hash2curve/internal/field"
 )
 
 const (

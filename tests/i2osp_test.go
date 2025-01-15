@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bytemare/hash2curve/internal"
+	"github.com/0xBridge/hash2curve/internal"
 )
 
 var (

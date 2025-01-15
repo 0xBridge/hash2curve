@@ -15,7 +15,7 @@ import (
 
 	"github.com/gtank/ristretto255"
 
-	"github.com/bytemare/hash2curve"
+	"github.com/0xBridge/hash2curve"
 )
 
 // HashToGroup returns a safe mapping of the arbitrary input to an Element in the Ristretto255 group.

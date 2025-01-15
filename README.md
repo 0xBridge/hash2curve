@@ -1,11 +1,11 @@
 # Hash To Curve
-[![hash2curve](https://github.com/bytemare/hash2curve/actions/workflows/code-scan.yml/badge.svg)](https://github.com/bytemare/hash2curve/actions/workflows/code-scan.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/hash2curve.svg)](https://pkg.go.dev/github.com/bytemare/hash2curve)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/bytemare/hash2curve/badge)](https://securityscorecards.dev/viewer/?uri=github.com/bytemare/hash2curve)
+[![hash2curve](https://github.com/0xBridge/hash2curve/actions/workflows/code-scan.yml/badge.svg)](https://github.com/0xBridge/hash2curve/actions/workflows/code-scan.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/hash2curve.svg)](https://pkg.go.dev/github.com/0xBridge/hash2curve)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/0xBridge/hash2curve/badge)](https://securityscorecards.dev/viewer/?uri=github.com/0xBridge/hash2curve)
 [![codecov](https://codecov.io/gh/bytemare/hash2curve/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/hash2curve)
 
 ```
-  import "github.com/bytemare/hash2curve"
+  import "github.com/0xBridge/hash2curve"
 ```
 
 Package hash2curve implements Hashing to Elliptic Curves as specified in [RFC 9380](https://datatracker.ietf.org/doc/rfc9380).
@@ -20,7 +20,7 @@ implementations:
 | P-384        | filippo.io/nistec              |
 | P-521        | filippo.io/nistec              |
 | Edwards25519 | filippo.io/edwards25519        |
-| Secp256k1    | github.com/bytemare/hash2curve |
+| Secp256k1    | github.com/0xBridge/hash2curve |
 
 #### What is hash2curve?
 
@@ -30,13 +30,13 @@ implementations:
 
 #### References
 
-## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/hash2curve.svg)](https://pkg.go.dev/github.com/bytemare/hash2curve)
+## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/hash2curve.svg)](https://pkg.go.dev/github.com/0xBridge/hash2curve)
 
-You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/hash2curve) and [the project wiki](https://github.com/bytemare/hash2curve/wiki) .
+You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/0xBridge/hash2curve) and [the project wiki](https://github.com/0xBridge/hash2curve/wiki) .
 
 ## Versioning
 
-[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/hash2curve/tags).
+[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/0xBridge/hash2curve/tags).
 
 
 ## Contributing
