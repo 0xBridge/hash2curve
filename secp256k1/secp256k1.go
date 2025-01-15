@@ -55,8 +55,8 @@ func (p *Point) Bytes() []byte {
 // The DST must not be empty or nil, and is recommended to be longer than 16 bytes.
 func HashToCurve(input, dst []byte) *Point {
 	u := hash2curve.HashToFieldXMD(crypto.SHA256, input, dst, 2, 1, secLength, fp.Order())
-	q0 := map2IsoCurve(u[0])
-	q1 := map2IsoCurve(u[1])
+	q0 := Map2IsoCurve(u[0])
+	q1 := Map2IsoCurve(u[1])
 	q0.add(q1)
 
 	return isogeny3iso(q0)
@@ -66,7 +66,7 @@ func HashToCurve(input, dst []byte) *Point {
 // The DST must not be empty or nil, and is recommended to be longer than 16 bytes.
 func EncodeToCurve(input, dst []byte) *Point {
 	u := hash2curve.HashToFieldXMD(crypto.SHA256, input, dst, 1, 1, secLength, fp.Order())
-	q0 := map2IsoCurve(u[0])
+	q0 := Map2IsoCurve(u[0])
 
 	return isogeny3iso(q0)
 }
